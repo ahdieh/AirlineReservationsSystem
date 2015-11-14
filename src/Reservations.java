@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Reservations {
-// PRIVATE VARIABELS +++++++++++++++++++++++++
+// PRIVATE VARIABLES +++++++++++++++++++++++++
 	private int[] _seat;
 	private int[] _firstClassSeat;
 	private int[] _economyClassSeat;
@@ -12,9 +12,9 @@ public class Reservations {
 	private int _reserveSeat;
 	
 	
-	boolean F = true;
-	boolean E = true;
-	boolean thisFlight = true;
+	private boolean F = true;
+	private boolean E = true;
+	private boolean thisFlight = true;
 	
 	// CONSTRUCTOR +++++++++++++++++++++++++
 	public Reservations(){
